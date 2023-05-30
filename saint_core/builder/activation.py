@@ -63,7 +63,7 @@ def build_activation_layer(cfg: Dict,inplace=True) -> nn.Module:
         raise KeyError(f"'type' is necessary in cfg")
 
     _cfg = cfg.copy()
-    _cfg.setdefault("inplace",inplace)
+    _cfg.setdefault("inplace",inplace) # inplace will be place into cfg
     active_type = _cfg.pop("type")
     custom_scope = cfg.pop("custom_scope")
     if custom_scope:
