@@ -1,9 +1,10 @@
-<p align="center">
+<bl>
+<div align="center">
 <img style="border-radius: 50%;
     border: 4pxn solid rgba(255,255,255,0.3);
     overflow: hidden;" 
     src="docs/pic/saint.png" alt="saint" height="200" width="200"/>
-</p>
+</div>
 
 <div align="center" style="font-weight: bold;font-size:55px;">saint.torch</div>
 
