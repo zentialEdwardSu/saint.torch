@@ -2,12 +2,12 @@ import torch
 from torch import nn
 from typing import Optional,Tuple,Dict,Union
 
-from saint_core.builder.conv import build_conv_layer
-from saint_core.builder.norm import build_norm_layer
-from saint_core.builder.activation import build_activation_layer
-from saint_core.builder.padding import build_padding_layer
+from saint_core.components.conv import build_conv_layer
+from saint_core.components.norm import build_norm_layer
+from saint_core.components.activation import build_activation_layer
+from saint_core.components.padding import build_padding_layer
 
-from saint_core.models.weight_init import constant_init,kaiming_init
+from saint_core.components.weight_init import constant_init,kaiming_init
 class ConvModule(nn.Module):
     """A conv block that bundles conv/norm/activation layers.
 

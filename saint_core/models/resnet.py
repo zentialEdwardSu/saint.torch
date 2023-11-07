@@ -3,10 +3,10 @@ import copy
 import torch.nn as nn
 import torch.utils.checkpoint as cp
 
-from saint_core.components.backbone.base_backbone import BaseBackbone
+from saint_core.components.base_backbone import BaseBackbone
 from saint_core.components.base_component import BaseComponent
-from saint_core.builder import build_padding_layer,build_conv_layer,build_norm_layer
-from saint_core.models.weight_init import kaiming_init,constant_init
+from saint_core.components import build_padding_layer,build_conv_layer,build_norm_layer
+from saint_core.components.weight_init import kaiming_init,constant_init
 
 
 class BasicBlock(BaseComponent):
