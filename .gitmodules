@@ -1,3 +1,6 @@
 [submodule "molyuu"]
 	path = molyuu
 	url = http://119.29.5.132:31080/ShadiaoLeYuan/molyuu.git
+[submodule "saint_core/external_module/DEKR"]
+	path = saint_core/external_module/DEKR
+	url = https://github.com/HRNet/DEKR.git
